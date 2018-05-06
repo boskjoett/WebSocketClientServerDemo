@@ -1,0 +1,17 @@
+﻿<Window x:Class="WebSocketClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WebSocketClient"
+        mc:Ignorable="d"
+        Title="Websocket Client" Height="220.087" Width="542.65">
+    <Grid>
+        <Label Content="Server URL:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBoxServerUrl" HorizontalAlignment="Left" Height="23" Margin="85,14,0,0" TextWrapping="Wrap" Text="ws://localhost:8080/websocket" VerticalAlignment="Top" Width="203"/>
+        <Button x:Name="ButtonConnect" Content="Connect" Margin="0,14,96,0" VerticalAlignment="Top" Height="24" Click="ButtonConnect_Click" RenderTransformOrigin="1.741,0.513" HorizontalAlignment="Right" Width="75"/>
+        <Button x:Name="ButtonDisconnect" Content="Disconnect" Margin="0,14,10,0" VerticalAlignment="Top" Height="24" Click="ButtonDisconnect_Click" HorizontalAlignment="Right" Width="75"/>
+        <Button x:Name="ButtonAddSubscriber" Content="Add Subscriber" HorizontalAlignment="Left" Margin="18,81,0,0" VerticalAlignment="Top" Width="146" Height="24" Click="ButtonAddSubscriber_Click" />
+        <Button x:Name="ButtonRemoveSubscriber" Content="Remove Subscriber" HorizontalAlignment="Left" Margin="18,118,0,0" VerticalAlignment="Top" Width="146" Height="24" Click="ButtonRemoveSubscriber_Click" />
+    </Grid>
+</Window>

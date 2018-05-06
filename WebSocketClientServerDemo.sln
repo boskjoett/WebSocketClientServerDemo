@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketServer", "WebSocketServer\WebSocketServer.csproj", "{735299C5-9CEF-45C4-AAF2-D404E88241EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedDataTypes", "SharedDataTypes\SharedDataTypes.csproj", "{10165F5D-28AA-4AB1-B70F-7C64B12089B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketClient", "WebSocketClient\WebSocketClient.csproj", "{D8D6F08B-A75D-4E8D-A836-EDDDB9701BC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{735299C5-9CEF-45C4-AAF2-D404E88241EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735299C5-9CEF-45C4-AAF2-D404E88241EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735299C5-9CEF-45C4-AAF2-D404E88241EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735299C5-9CEF-45C4-AAF2-D404E88241EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10165F5D-28AA-4AB1-B70F-7C64B12089B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10165F5D-28AA-4AB1-B70F-7C64B12089B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10165F5D-28AA-4AB1-B70F-7C64B12089B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10165F5D-28AA-4AB1-B70F-7C64B12089B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D6F08B-A75D-4E8D-A836-EDDDB9701BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D6F08B-A75D-4E8D-A836-EDDDB9701BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D6F08B-A75D-4E8D-A836-EDDDB9701BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D6F08B-A75D-4E8D-A836-EDDDB9701BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAB986F9-F3DF-4129-8DFC-A5A31A937188}
+	EndGlobalSection
+EndGlobal
